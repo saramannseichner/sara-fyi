@@ -1,0 +1,44 @@
+theyard:
+  username: theyard
+  name: Ottawa's Indoor Bike and Skate Park
+  url_full: https://theyardottawa.com/
+  url: theyardottawa.com
+  bio: Daniel is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious.
+  picture: /assets/images/daniel.jpg
+envie:
+  username: envie
+  name: Elevated Wellness Products for the Everyday Mystic
+  url_full: https://www.instagram.com/envie.company/
+  url: envieco.com
+  bio: Nancy is a reporter at Wild Bird magazine, where she writes about technology / design companies and the people they impact.
+  picture: /assets/images/nancy.jpg
+  facebook: False
+  twitter: justgoodthemes
+maclarens:
+  username: maclarens
+  name: Billiards, Beverages and Private Events in the heart of Ottawa.
+  url_full: http://maclarens.com/
+  url: maclarens.com
+  bio: Nancy is a reporter at Wild Bird magazine, where she writes about technology / design companies and the people they impact.
+  picture: /assets/images/nancy.jpg
+  facebook: False
+  twitter: justgoodthemes
+clean:
+  username: clean
+  name: Supported Cleansing and Dieting Programs
+  url_full: http://thecleanprogram.com/
+  url: thecleanprogram.com
+  bio: Nancy is a reporter at Wild Bird magazine, where she writes about technology / design companies and the people they impact.
+  picture: /assets/images/nancy.jpg
+  facebook: False
+  twitter: justgoodthemes
+hint:
+  username: hint
+  name: Flavoured Water and Sunscreen
+  url_full: https://drinkhint.com/
+  url: drinkhint.com
+  bio: Nancy is a reporter at Wild Bird magazine, where she writes about technology / design companies and the people they impact.
+  picture: /assets/images/hint.jpg
+  facebook: False
+  twitter: justgoodthemes
+

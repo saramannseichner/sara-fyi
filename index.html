@@ -1,0 +1,30 @@
+---
+layout: default
+title: Home
+---
+
+<div id="content" class="site-content">
+    <!-- Slider -->
+    {% if page.url == "/" %}
+        {% include featuredbox.html %}
+    {% endif %}
+    <!-- Posts Index -->
+    <main id="main" class="site-main inner">
+        <div id="post-wrapper" class="post-wrapper">
+            {% for post in paginator.posts %}
+                {% include postbox.html %}
+            {% endfor %}
+        </div><!-- .post-wrapper -->
+        <!-- Pagination-->
+        {% include pagination.html %}
+        <p class= "contact-me site-title" id="case">
+        Interested in working with me?
+        <a href="mailto:saramannseichner@gmail.com?Subject=Hello%20" target="_top">Get in Touch!</a>
+        </p>
+    </main>
+</div>
+
+
+
+
+
