@@ -9,8 +9,8 @@
     {% if site.plugins_dir contains 'jekyll-seo-tag' %}
         {% include head-seo.html %}
     {% else %}
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.name | escape }}{% endif %}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <title>Sara Mannseichner Freelance Web Developer</title>
+    <meta name="description" content="Freelance Web Development, Web Design, SEO, ECommerce and Data Analytics. Based out of Ottawa, ON, Canada">
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
     {% endif %}
 
@@ -30,7 +30,7 @@
     <div id="page" class="site">
         {% include header.html %}
         {{ content }}
-        
+
         {% if paginator.total_posts > site.paginate %}
             {% if page.class == 'tag-template' %}
             {% include tag-pagination.html %}
@@ -38,7 +38,7 @@
             {% include author-pagination.html %}
             {% endif %}
         {% endif %}
-        
+
         {% include sidebar.html %}
         {% include footer.html %}
 
